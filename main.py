@@ -1,5 +1,4 @@
 def divide(a, b):
-# Erreur volontaire
-return a / b
-
+    if b == 0:
+        raise ValueError("Impossible de diviser par zéro")
     return a / b
